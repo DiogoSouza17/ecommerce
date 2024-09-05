@@ -69,7 +69,7 @@ public static function logout()
   $_SESSION[User::SESSION] = NULL;
 }
 
-public static function listALL()
+public static function listAll()
 {
   $sql = new Sql();
 
